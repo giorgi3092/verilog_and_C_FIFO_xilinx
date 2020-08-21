@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.1 (64-bit)
+# SW Build 2580384 on Sat Jun 29 08:12:21 MDT 2019
+# IP Build 2579722 on Sat Jun 29 11:35:40 MDT 2019
+# Start of session at: Tue Aug  6 12:43:42 2019
+# Process ID: 5936
+# Current directory: C:/Users/aptsi/Desktop/FIFO_MiniZed/FIFO_MiniZed.runs/PL_BRAM_BD_processing_system7_0_0_synth_1
+# Command line: vivado.exe -log PL_BRAM_BD_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PL_BRAM_BD_processing_system7_0_0.tcl
+# Log file: C:/Users/aptsi/Desktop/FIFO_MiniZed/FIFO_MiniZed.runs/PL_BRAM_BD_processing_system7_0_0_synth_1/PL_BRAM_BD_processing_system7_0_0.vds
+# Journal file: C:/Users/aptsi/Desktop/FIFO_MiniZed/FIFO_MiniZed.runs/PL_BRAM_BD_processing_system7_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source PL_BRAM_BD_processing_system7_0_0.tcl -notrace

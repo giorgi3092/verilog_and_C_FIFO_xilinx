@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.1 (64-bit)
+# SW Build 2580384 on Sat Jun 29 08:12:21 MDT 2019
+# IP Build 2579722 on Sat Jun 29 11:35:40 MDT 2019
+# Start of session at: Sat Aug 17 02:12:09 2019
+# Process ID: 6500
+# Current directory: C:/Users/aptsi/Desktop/FIFO_MiniZed/FIFO_MiniZed.runs/impl_1
+# Command line: vivado.exe -log FIFO.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FIFO.tcl -notrace
+# Log file: C:/Users/aptsi/Desktop/FIFO_MiniZed/FIFO_MiniZed.runs/impl_1/FIFO.vdi
+# Journal file: C:/Users/aptsi/Desktop/FIFO_MiniZed/FIFO_MiniZed.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source FIFO.tcl -notrace

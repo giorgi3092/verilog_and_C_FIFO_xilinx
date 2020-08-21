@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"PS_DRAM_BD": {
+			"proto_instances": {
+			}
+		}
+	}
+}

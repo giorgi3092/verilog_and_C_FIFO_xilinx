@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/gaptsiauri/Desktop/FIFO_MiniZed/FIFO_MiniZed/FIFO_MiniZed.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/gaptsiauri/Desktop/FIFO_MiniZed/FIFO_MiniZed/FIFO_MiniZed.srcs/sources_1/new/FIFO.v,1563994232,verilog,,,,FIFO,,,,,,,,
+C:/Users/gaptsiauri/Desktop/FIFO_MiniZed/FIFO_MiniZed/FIFO_MiniZed.srcs/sources_1/new/PL_BRAM.v,1563990913,verilog,,C:/Users/gaptsiauri/Desktop/FIFO_MiniZed/FIFO_MiniZed/FIFO_MiniZed.srcs/sources_1/new/PL_LUT.v,,PL_BRAM,,,,,,,,
+C:/Users/gaptsiauri/Desktop/FIFO_MiniZed/FIFO_MiniZed/FIFO_MiniZed.srcs/sources_1/new/PL_LUT.v,1563990913,verilog,,C:/Users/gaptsiauri/Desktop/FIFO_MiniZed/FIFO_MiniZed/FIFO_MiniZed.srcs/sources_1/new/PL_PS_DRAM.v,,PL_LUT,,,,,,,,
+C:/Users/gaptsiauri/Desktop/FIFO_MiniZed/FIFO_MiniZed/FIFO_MiniZed.srcs/sources_1/new/PL_PS_DRAM.v,1563990971,verilog,,C:/Users/gaptsiauri/Desktop/FIFO_MiniZed/FIFO_MiniZed/FIFO_MiniZed.srcs/sources_1/new/PS_BRAM.v,,PL_PS_DRAM,,,,,,,,
+C:/Users/gaptsiauri/Desktop/FIFO_MiniZed/FIFO_MiniZed/FIFO_MiniZed.srcs/sources_1/new/PS_BRAM.v,1563990913,verilog,,C:/Users/gaptsiauri/Desktop/FIFO_MiniZed/FIFO_MiniZed/FIFO_MiniZed.srcs/sources_1/new/PS_DRAM.v,,PS_BRAM,,,,,,,,
+C:/Users/gaptsiauri/Desktop/FIFO_MiniZed/FIFO_MiniZed/FIFO_MiniZed.srcs/sources_1/new/PS_DRAM.v,1563990913,verilog,,C:/Users/gaptsiauri/Desktop/FIFO_MiniZed/FIFO_MiniZed/FIFO_MiniZed.srcs/sources_1/new/FIFO.v,,PS_DRAM,,,,,,,,

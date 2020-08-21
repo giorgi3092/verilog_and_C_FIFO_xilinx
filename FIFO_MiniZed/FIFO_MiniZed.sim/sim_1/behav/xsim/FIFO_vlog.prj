@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FIFO_MiniZed.srcs/sources_1/new/PL_BRAM.v" \
+"../../../../FIFO_MiniZed.srcs/sources_1/new/PL_LUT.v" \
+"../../../../FIFO_MiniZed.srcs/sources_1/new/PL_PS_DRAM.v" \
+"../../../../FIFO_MiniZed.srcs/sources_1/new/PS_BRAM.v" \
+"../../../../FIFO_MiniZed.srcs/sources_1/new/PS_DRAM.v" \
+"../../../../FIFO_MiniZed.srcs/sources_1/new/FIFO.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,13 @@
+
+*** Running vivado
+    with args -log PL_BRAM_BD_processing_system7_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source PL_BRAM_BD_processing_system7_0_0.tcl
+
+
+****** Vivado v2019.1.1 (64-bit)
+  **** SW Build 2580384 on Sat Jun 29 08:12:21 MDT 2019
+  **** IP Build 2579722 on Sat Jun 29 11:35:40 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source PL_BRAM_BD_processing_system7_0_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP PL_BRAM_BD_processing_system7_0_0, cache-ID = bf7f23b0615e006e.
+INFO: [Common 17-206] Exiting Vivado at Tue Aug  6 12:43:55 2019...

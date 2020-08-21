@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.1 (64-bit)
+# SW Build 2580384 on Sat Jun 29 08:12:21 MDT 2019
+# IP Build 2579722 on Sat Jun 29 11:35:40 MDT 2019
+# Start of session at: Sat Aug 17 00:18:05 2019
+# Process ID: 17812
+# Current directory: C:/Users/aptsi/Desktop/FIFO_MiniZed
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18564 C:\Users\aptsi\Desktop\FIFO_MiniZed\FIFO_MiniZed.xpr
+# Log file: C:/Users/aptsi/Desktop/FIFO_MiniZed/vivado.log
+# Journal file: C:/Users/aptsi/Desktop/FIFO_MiniZed\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/aptsi/Desktop/FIFO_MiniZed/FIFO_MiniZed.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:14 . Memory (MB): peak = 726.977 ; gain = 129.031
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 17 00:26:57 2019...

@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"PL_LUT_BD": {
+			"proto_instances": {
+			}
+		}
+	}
+}

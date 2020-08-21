@@ -1,0 +1,49 @@
+14:31:25 **** Incremental Build of configuration Debug for project PS_BRAM_SDK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../PS_BRAM_SDK_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'compute_next_wr_addr':
+../src/helloworld.c:62:37: error: 'XPAR_AXI_BRAM_CTRL_0_S_AXI_HIGHADDR' undeclared (first use in this function); did you mean 'XPAR_PS7_RAM_0_S_AXI_HIGHADDR'?
+ #define MAX_FIFO_CAPACITY_IN_BYTES (XPAR_AXI_BRAM_CTRL_0_S_AXI_HIGHADDR - XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR)  // in bytes. Check "xparameters.h" for details about these maacros
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:62:37: note: in definition of macro 'MAX_FIFO_CAPACITY_IN_BYTES'
+ #define MAX_FIFO_CAPACITY_IN_BYTES (XPAR_AXI_BRAM_CTRL_0_S_AXI_HIGHADDR - XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR)  // in bytes. Check "xparameters.h" for details about these maacros
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:77:44: note: in expansion of macro 'REAL_FIFO_CAPACITY'
+  next_wr_addr = ((wr_pointer_addr + 1) == (REAL_FIFO_CAPACITY)) ? 0 : wr_pointer_addr + 1;
+                                            ^~~~~~~~~~~~~~~~~~
+../src/helloworld.c:62:37: note: each undeclared identifier is reported only once for each function it appears in
+ #define MAX_FIFO_CAPACITY_IN_BYTES (XPAR_AXI_BRAM_CTRL_0_S_AXI_HIGHADDR - XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR)  // in bytes. Check "xparameters.h" for details about these maacros
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:62:37: note: in definition of macro 'MAX_FIFO_CAPACITY_IN_BYTES'
+ #define MAX_FIFO_CAPACITY_IN_BYTES (XPAR_AXI_BRAM_CTRL_0_S_AXI_HIGHADDR - XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR)  // in bytes. Check "xparameters.h" for details about these maacros
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:77:44: note: in expansion of macro 'REAL_FIFO_CAPACITY'
+  next_wr_addr = ((wr_pointer_addr + 1) == (REAL_FIFO_CAPACITY)) ? 0 : wr_pointer_addr + 1;
+                                            ^~~~~~~~~~~~~~~~~~
+../src/helloworld.c:62:75: error: 'XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_PS7_RAM_0_S_AXI_BASEADDR'?
+ #define MAX_FIFO_CAPACITY_IN_BYTES (XPAR_AXI_BRAM_CTRL_0_S_AXI_HIGHADDR - XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR)  // in bytes. Check "xparameters.h" for details about these maacros
+                                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:62:75: note: in definition of macro 'MAX_FIFO_CAPACITY_IN_BYTES'
+ #define MAX_FIFO_CAPACITY_IN_BYTES (XPAR_AXI_BRAM_CTRL_0_S_AXI_HIGHADDR - XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR)  // in bytes. Check "xparameters.h" for details about these maacros
+                                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:77:44: note: in expansion of macro 'REAL_FIFO_CAPACITY'
+  next_wr_addr = ((wr_pointer_addr + 1) == (REAL_FIFO_CAPACITY)) ? 0 : wr_pointer_addr + 1;
+                                            ^~~~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'write_to_FIFO':
+../src/helloworld.c:106:13: error: 'XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_PS7_RAM_0_S_AXI_BASEADDR'?
+    Xil_Out8(XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR + wr_pointer_addr, (unsigned char) i_data);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+             XPAR_PS7_RAM_0_S_AXI_BASEADDR
+../src/helloworld.c: In function 'read_from_FIFO':
+../src/helloworld.c:135:27: error: 'XPAR_AXI_BRAM_CTRL_1_S_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_PS7_RAM_1_S_AXI_BASEADDR'?
+    value_read32 = Xil_In8(XPAR_AXI_BRAM_CTRL_1_S_AXI_BASEADDR + rd_pointer_addr);
+                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                           XPAR_PS7_RAM_1_S_AXI_BASEADDR
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+
+14:31:26 Build Finished (took 364ms)
+
